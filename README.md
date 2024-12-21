@@ -22,3 +22,16 @@ for (int i = 0; i < 10; i++) {
 // save the changes
 level.save();
 ```
+
+### Download
+Maven
+```
+<dependencies>
+  <dependency>
+    <groupId>me.eren.beatblockeditor</groupId>
+    <artifactId>beatblockeditor</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+</dependencies>
+```
+JAR downloads can be found in [packages](https://github.com/erenkarakal/BeatblockEditor/packages/2353027)
