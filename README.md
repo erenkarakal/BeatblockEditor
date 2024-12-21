@@ -1,4 +1,5 @@
 ### A library for editing Beatblock levels with Java
+Currently only chart is editable, events and other level properties will be added later.
 
 ### Example Usage
 ```java
