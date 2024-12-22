@@ -31,12 +31,25 @@ You can use `.getX()` and `.setX()` to get or set each property. All Note constr
 ### Download
 Maven
 ```
-<dependencies>
-  <dependency>
-    <groupId>me.eren.beatblockeditor</groupId>
-    <artifactId>beatblockeditor</artifactId>
-    <version>1.0.0</version>
-  </dependency>
-</dependencies>
+<repository>
+  <id>machinemc-repository-releases</id>
+  <name>MachineMC Repository</name>
+  <url>https://repo.machinemc.org/releases</url>
+</repository>
+
+<dependency>
+  <groupId>me.eren</groupId>
+  <artifactId>beatblockeditor</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
-JAR downloads can be found in [packages](https://github.com/erenkarakal/BeatblockEditor/packages/2353027)
+Gradle
+```
+maven {
+    name "machinemcRepositoryReleases"
+    url "https://repo.machinemc.org/releases"
+}
+
+implementation "me.eren:beatblockeditor:1.0.0"
+```
+JAR downloads can be found in [MachineMC Repository](https://repo.machinemc.org/#/releases/me/eren/beatblockeditor)
