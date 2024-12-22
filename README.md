@@ -24,6 +24,10 @@ for (int i = 0; i < 10; i++) {
 level.save();
 ```
 
+### Note Types and Properties
+![image](https://github.com/user-attachments/assets/d81331c4-dc7c-4524-9c91-f424c415fcd6)
+You can use `.getX()` and `.setX()` to get or set each property. All Note constructors have the bare minimum data for the note to work.
+
 ### Download
 Maven
 ```
